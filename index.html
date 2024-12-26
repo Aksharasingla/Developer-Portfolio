@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshara-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(15, 11, 36);
+            color: white;
+            font-family: 'Popins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            padding: 0 30px;
+            background-color: rgb(102, 32, 93);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+           text-decoration: none;
+           color: white;
+        }
+        nav ul li a:hover{
+            color: black;
+            font-size: 1.1rem;
+        }
+
+        main hr{
+            border: 0;
+            background-color: #5a4974;
+            height: 1.2px;
+            margin: 40px 75px;
+        }
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstsection > div {
+            width: 30%;
+        }
+
+        .leftsection {
+           font-size: 2.5rem;
+           margin: 100px 0;
+
+        }
+        .leftsection  .button{
+            padding: 10px;
+           background: #1a194a;
+           color: rgb(127, 176, 102);
+           border: 1.5px solid white;
+           border-radius: 6px;
+           font-size: 20px;
+           margin-top: 9%; 
+
+
+        }
+        .leftsection  .button a{
+            color: aquamarine;
+            text-decoration: none;
+        }
+
+        .rightsection img {
+            width: 90%;
+            margin: 20px 0;
+            
+        }
+
+        .purple{
+            color: blueviolet;
+
+        }
+        #element{
+            color: blueviolet;
+        }
+        .secondsection{
+            max-width: 76vw;
+            margin: auto;
+            height: 95vh;
+        }
+        .secondsection h1{
+            font-size: 1.8rem;
+            
+        }
+        .text-gray{
+            color: rgb(178, 69, 142);
+        }
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+            margin-top: 8%;
+        }
+        .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+        .image-top{
+            width: 25px;
+            position: relative;
+            top: -30px;
+            left: -13px;
+
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 1.5rem;
+            font: bold;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width:150px;
+            font-size: 10px;
+        }
+        .vertical-desc ul {
+            list-style-type: square;
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+        .vertical-desc ul li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        footer{
+              background-color: rgb(23, 22, 23);
+              
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+            gap: 100px;
+            flex-wrap: wrap;
+            
+        }
+        .footer >div{
+            width: 250px;
+            line-height: 1.2;
+            
+           
+        }
+        .footer ul li{
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .footer-second  ul li a{
+            color:rgb(68, 129, 149);
+        }
+
+        .footer-third  ul li a{
+            color: rgb(68, 129, 149);
+        }
+
+        .footer-first{
+            font-size: 25px;
+            color: rgb(147, 61, 147);
+            padding: 35px;
+            
+        }
+
+        footer .footer-center{
+                    text-align: center;
+                    margin-top: 10px;
+                    width: 400px;     
+                    color: grey;    
+                    padding: 5px 0;       
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+           
+            <div class="left">Akshara's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Akshara</span>
+                <div>and I am a passionate</div>
+                
+                <span id="element"></span>
+                <br>
+                <button class="button">
+                    <a href="akshararesumefinal.pdf"  download="Akshara_Resume.pdf">Download Resume</a></button>
+                <button class="button">
+                    <a href="https://github.com/Aksharasingla" target="_blank">Visit Github</a></button>
+                
+            </div>
+            <div class="rightsection">
+                <img src="m.png" alt="">
+            </div>
+        </section>
+ <hr>  <!--//for line -->
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Achievements</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="i.png"alt="">
+                    <div class="vertical-title">
+                        Education
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>Bachelors in Computer science Engineering (2023-2027)</li>
+                            
+                            <li>Intermediate (CBSE)| Police D.A.V Public School (2022-2023) | 81%</li>
+
+                            <li>Matriculation(CBSE)| Police D.A.V Public School (2019-2020) | 83.2%</li>
+
+                        </ul>
+                    </div>                    
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="u.png"alt="">
+                    <div class="vertical-title">
+                        Training & Projects
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>Web Development Intern | Cipherbyte Technologies | Online | December 2024 -January 2025</li>
+                            
+                            <li>Independent Project:(january 2024- April 2024)
+
+                               | A review  paper on Edge Computing
+                            </li>
+
+                            <li>Hackathon-Hack Wars (5-member team) | Backend developer</li>
+                            
+                            <li>Sign language Detection Using machine Learning </li>
+
+                        </ul>
+                    </div>                    
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="j.png"alt="">
+                    <div class="vertical-title">
+                        Technical Competencies
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>C++</li>
+                            <li>C </li>
+                            
+                            <li>Python</li>
+
+                            <li>React</li>
+                            <li>HTML|CSS</li>
+                            <li>Javascipt</li>
+
+
+                        </ul>
+                    </div>                    
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="r.png"alt="">
+                    <div class="vertical-title">
+                        Certificates
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>Financial Iteracy Experience in Securiti Market | Chandigarh University
+                            <li>Web Development Seminar organised by IIT-Rorkee</li>
+
+                            
+
+                        </ul>
+                    </div>                    
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="g.png"alt="">
+                    <div class="vertical-title">
+                        Interpersonal Skills
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>Time ManageMent</li>
+                            
+                            <li>Active Listening</li>
+
+                            <li>Effective Communication</li>
+                            <li>Problem solving</li>
+
+                        </ul>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-first">
+             Akshara's  Development Portfolio
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li><a href="mailto:aksharasingla@4gmail.com">Get In Touch (aksharasingla@4gmail.com)</a></li>
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>
+                    <a href="https://github.com/Aksharasingla" target="_blank">GitHub Profile</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/akshara-singla-57b5b4288/" target="_blank">Linkdin Profile</a>
+                </li>
+                <li>
+                    <a href="https://leetcode.com/u/aksharasingla4/" target="_blank">Leetcode Profile</a>
+                </li>
+                <li><a href="https://codolio.com/profile/Aksharasingla@5" target="_blank">Codolio Profile</a></li>
+            
+            </ul>
+        </div>
+    <br>
+        <div class="footer-center">
+           Cpyright &#169; www.aksharaportfolio.com | All Rights Reserved
+        </div>
+        
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Programmer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</body>
+
+</html>
